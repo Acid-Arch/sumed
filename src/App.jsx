@@ -1,16 +1,13 @@
-import React from 'react';
-import Layout from './components/Layout';
-import NavMenu from './components/NavMenu';
-import './App.css';
+import React from "react";
+import { Route } from "react-router";
+import Layout from "./components/Layout";
+import "./App.css";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Layout />
-      
-
-   
-    </div>
+    <Layout>
+      <Route path="/"  />
+    </Layout>
   );
 }
 
