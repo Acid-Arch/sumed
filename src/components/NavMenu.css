@@ -14,7 +14,7 @@
     font-weight: normal !important;
   }
   a.back-font{
-    background-color: darkslategrey;
+    background-color: rgb(24, 148, 20);
   }
   
   .profilePicture{
@@ -31,7 +31,7 @@
   }
   
   .box-shadow {
-    background-color: #36c;
+    background-color: rgb(58, 197, 65);
   }
   
   

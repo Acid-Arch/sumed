@@ -9,6 +9,7 @@ import {
   NavItem,
   NavLink,
 } from "reactstrap";
+ import "./NavMenu.css";
 
 const NavMenu = (props) => {
   const [collapsed, setCollapsed] = useState(true);
